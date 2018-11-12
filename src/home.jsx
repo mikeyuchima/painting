@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Jumbotron, Button } from "react-bootstrap";
+import Showcase from "./showcase";
 
 class Home extends Component {
   render() {
@@ -15,6 +16,7 @@ class Home extends Component {
             <Button bsStyle="primary">Learn more</Button>
           </p>
         </Jumbotron>
+        <Showcase />
       </section>
     );
   }
