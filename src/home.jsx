@@ -7,15 +7,19 @@ class Home extends Component {
     return (
       <section>
         <Jumbotron>
-          <h1>Hello, world!</h1>
+          <h1>WELCOME!</h1>
           <p>
             This is a simple hero unit, a simple jumbotron-style component for
             calling extra attention to featured content or information.
           </p>
           <p>
-            <Button bsStyle="primary">Learn more</Button>
+            <Button bsStyle="primary">Store</Button>
+            <Button bsStyle="primary">Class</Button>
           </p>
         </Jumbotron>
+        <h2>Take a Look!</h2>
+        <Showcase />
+        <Showcase />
         <Showcase />
       </section>
     );
