@@ -1,32 +1,22 @@
 import React from "react";
+import { Router, Route, Link } from "react-router-dom";
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 
 const NavigationBar = () => (
   <Navbar inverse collapseOnSelect style={{ marginBottom: "0px" }}>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#brand">React-Bootstrap</a>
+        <a href="/">My Painting Store</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
-      <Nav>
-        <NavItem eventKey={1} href="#">
-          Link
-        </NavItem>
-        <NavItem eventKey={2} href="#">
-          Link
-        </NavItem>
-        <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-          <MenuItem eventKey={3.1}>Action</MenuItem>
-        </NavDropdown>
-      </Nav>
       <Nav pullRight>
-        <NavItem eventKey={1} href="#">
-          Link Right
+        <NavItem eventKey={1}>
+          <Link to="/store">Store</Link>
         </NavItem>
-        <NavItem eventKey={2} href="#">
-          Link Right
+        <NavItem eventKey={2}>
+          <Link to="/class">Class</Link>
         </NavItem>
       </Nav>
     </Navbar.Collapse>
