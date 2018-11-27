@@ -13,10 +13,14 @@ const NavigationBar = () => (
     <Navbar.Collapse>
       <Nav pullRight>
         <NavItem eventKey={1}>
-          <Link to="/store">Store</Link>
+          {/* <Router link to="/store">
+            Store
+          </Router> */}
         </NavItem>
         <NavItem eventKey={2}>
-          <Link to="/class">Class</Link>
+          {/* <Router link to="/class">
+            Class
+          </Router> */}
         </NavItem>
       </Nav>
     </Navbar.Collapse>

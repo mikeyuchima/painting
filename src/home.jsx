@@ -6,7 +6,7 @@ import Showcase from "./showcase";
 class Home extends Component {
   render() {
     return (
-      <section>
+      <section className="home">
         <Jumbotron>
           <h1>WELCOME!</h1>
           <p>
@@ -19,9 +19,11 @@ class Home extends Component {
           </p>
         </Jumbotron>
         <h2>Take a Look!</h2>
-        <Showcase />
-        <Showcase />
-        <Showcase />
+        <section className="showcase">
+          <Showcase />
+          <Showcase />
+          <Showcase />
+        </section>
       </section>
     );
   }

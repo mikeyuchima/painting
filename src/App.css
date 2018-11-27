@@ -1,4 +1,4 @@
-.App {
+.home {
   text-align: center;
 }
 
@@ -7,4 +7,16 @@
   border-radius: 3px;
   height: 200px;
   width: 250px;
+}
+
+.showcase {
+  margin: 0 auto;
+}
+
+#tab {
+  height: 100vh;
+  margin: auto;
+  width: 50%;
+  border: 1px solid darkgrey;
+  padding: 10px;
 }
