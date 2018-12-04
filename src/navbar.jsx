@@ -1,6 +1,6 @@
 import React from "react";
 import { Router, Route, Link } from "react-router-dom";
-import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
+import { Nav, Navbar, NavItem } from "react-bootstrap";
 
 const NavigationBar = () => (
   <Navbar inverse collapseOnSelect style={{ marginBottom: "0px" }}>

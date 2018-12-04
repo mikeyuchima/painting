@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Jumbotron, Button } from "react-bootstrap";
-import { Router, Route, Link } from "react-router-dom";
 import Showcase from "./showcase";
 
 class Home extends Component {

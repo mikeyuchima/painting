@@ -8,7 +8,6 @@ import {
   InputGroup
 } from "react-bootstrap";
 import ImageUploader from "react-images-upload";
-import $ from "jquery";
 
 class Admin extends Component {
   constructor(props) {
