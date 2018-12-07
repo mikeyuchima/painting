@@ -4,7 +4,7 @@ const Class = () => (
   <div id="Sell">
     <h1>PAINT NAME</h1>
     <section className="image-details">
-      <img src="https://placeimg.com/640/480/nature" />
+      <img src="https://placeimg.com/640/480/nature" alt="painting image" />
       <div className="details">
         <ul>
           <li>Date:</li>
